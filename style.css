@@ -388,7 +388,7 @@ iframe {
     margin: 20px auto;
 }
 
-a{
+.a1{
     position: relative;
     background: #fff;
     color: #000;
@@ -400,7 +400,7 @@ a{
     padding: 10px 30px;
     transition: 0.5s;
 }
-a:hover{
+.a1 :hover{
     background: var(--clr);
     letter-spacing: 0.25em;
     box-shadow: 0 0 35px var(--clr);
@@ -469,4 +469,18 @@ a:hover{
     .About{
         padding:20px;
     }
+}
+.container h1{
+    font-size: 1.7em;
+    text-align: center;
+    border: 5px solid rgb(240, 120, 8);
+    background-color: #ccc;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    left: .4em;
+    animation-play-state: running;
+    animation-play-state: paused, running, running;
+
+  
 }
